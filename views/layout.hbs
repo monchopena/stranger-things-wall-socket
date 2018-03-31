@@ -1,0 +1,20 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Stranger Things</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io.connect('http://localhost:3000');
+    socket.on('connect', function (data) {
+      socket.emit('join', 'Hello World from client');
+    });
+  </script>
+</head>
+
+<body>
+  <img src="images/letters/empty.gif" alt="Strangerthing" id="letters" />
+  <script src="javascripts/st.js"></script>
+</body>
+
+</html>
