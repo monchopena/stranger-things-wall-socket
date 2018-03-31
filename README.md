@@ -1,4 +1,4 @@
-# Stranger Things Wall
+# Stranger Things Wall with Socket
 
 ## How to start
 
